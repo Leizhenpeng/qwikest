@@ -21,7 +21,7 @@ Mocking Up SSR Web App With <b>Qwik</b><sup><em>(speed)</em></sup><br>
 
 - 🗂 [File based routing](./src/routes)
 
-- 🎨 [TailwindCss](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [Unocss](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
 - 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
