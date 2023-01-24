@@ -9,7 +9,7 @@ Mocking Up SSR Web App With <b>Qwik</b><sup><em>(speed)</em></sup><br>
 <br>
 
 <p align='center'>
-<a href="https://fast-qwik.netlify.app//">Live Demo</a>
+<a href="https://fast-qwik.netlify.app/">Live Demo</a>
 </p>
 
 <br>
