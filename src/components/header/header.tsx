@@ -2,7 +2,7 @@ import { component$, useClientEffect$, useStylesScoped$ } from "@builder.io/qwik
 import { QwikLogo } from "../icons/qwik";
 import styles from "./header.css?inline";
 import type { SpeakLocale} from "qwik-speak";
-import { changeLocale, useSpeakContext, useSpeakLocale } from "qwik-speak";
+import { changeLocale, useSpeakContext } from "qwik-speak";
 import { config } from "~/speak-config";
 
 export const setLocale = (locale: SpeakLocale) => {
@@ -16,7 +16,6 @@ export const getLocale = () => {
 export default component$(() => {
   useStylesScoped$(styles);
   const ctx = useSpeakContext();
-  const localeNow = useSpeakLocale()
 
   useClientEffect$(async () => {
     const locale = getLocale() as SpeakLocale;

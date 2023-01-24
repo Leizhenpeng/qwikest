@@ -1,65 +1,38 @@
-# Qwik City App ⚡️
+<p align='center'>
+  <img src='img_1.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+</p>
 
-- [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
-- [Qwik GitHub](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+<p align='center'>
+Mocking Up SSR Web App With <b>Qwik</b><sup><em>(speed)</em></sup><br>
+</p>
 
----
+<br>
 
-## Project Structure
+<p align='center'>
+<a href="https://fast-qwik.netlify.app//">Live Demo</a>
+</p>
 
-This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just a extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+<br>
 
-Inside your project, you'll see the following directory structure:
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
+## Features
 
-- `src/routes`: Provides the directory based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
+- ⚡️ [qwik](https://qwik.builder.io/), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/) - best partner to ssr
 
-- `src/components`: Recommended directory for components.
+- 🗂 [File based routing](./src/routes)
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+- 🎨 [TailwindCss](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
-## Add Integrations and deployment
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-Use the `pnpm qwik add` command to add additional integrations. Some examples of integrations include: Cloudflare, Netlify or Express server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/static-site-generation/static-site-config/).
+- 🌍 [I18n ready](./public/i18n)
 
-```shell
-pnpm qwik add # or `yarn qwik add`
-```
+- 🗒 Ready [Global Store Management](https://qwik.builder.io/docs/components/context/)
 
-## Development
+- 🦾 TypeScript, of course
 
-Development mode uses [Vite's development server](https://vitejs.dev/). During development, the `dev` command will server-side render (SSR) the output.
+- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions)
 
-```shell
-npm start # or `yarn start`
-```
+- ☁️ Deploy on Netlify, zero-config
 
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
-
-## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to locally preview a production build, and it should not be used as a production server.
-
-```shell
-pnpm preview # or `yarn preview`
-```
-
-## Production
-
-The production build will generate client and server modules by running both client and server build commands. Additionally, the build command will use Typescript to run a type check on the source code.
-
-```shell
-pnpm build # or `yarn build`
-```
+<br>

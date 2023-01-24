@@ -1,6 +1,5 @@
 import { component$, useContext } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Link } from "@builder.io/qwik-city";
 import {
   $translate as t, Speak
 } from "qwik-speak";
