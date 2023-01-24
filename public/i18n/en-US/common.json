@@ -1,0 +1,6 @@
+{
+  "common": {
+    "btn": "Click Me {{count}} Times",
+    "welcome": "welcome to"
+  }
+}
