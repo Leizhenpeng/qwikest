@@ -5,28 +5,36 @@ import {
 } from "qwik-speak";
 import type { ICommonContext } from "~/store";
 import { CommonContext, useCommon } from "~/store";
-
+import Logo from "~/assets/people.svg?component"
 export default component$(() => {
   const commonStore = useContext(CommonContext) as ICommonContext;
   return (
     <Speak assets={ ["common"] }>
 
-      <div>
-        <h1 class={`text-2xl text-center my-10`}>
-          { t("common.welcome@@welcome to") } Qwik <span class="lightning">⚡️</span>
+      <div class={`min-h-[30vh] bg-[#EFF5F5] `}>
+        <h1 class={`flex justify-center gap-2 align-bottom pt-14` }>
+          <Logo height="40px" width="40px" color={`red`}/>
+          <p class="text-2xl leading-[40px]">
+          { t("common.welcome@@welcome to") } Qwik
+          </p>
+          <Logo height="40px" width="40px" color={`red`}/>
         </h1>
 
-        <button class="mindblow " onClick$={
-          () => {
-            useCommon.increment(commonStore)
-          }
-        } >
-          {
-            t("common.btn",{
-              count: commonStore.count
-            })
-          }
-        </button>
+
+        <div class={`w-full flex justify-center gap-2 mt-8`}>
+          <button class="bg-blue-400 hover:bg-blue-500 text-sm text-white font-mono font-light py-2 px-4 rounded-lg border-2 border-blue-200" onClick$={
+            () => {
+              useCommon.increment(commonStore)
+            }
+          }>
+            {
+              t("common.btn@@Click Me {{count}} Times", {
+                count: commonStore.count
+              })
+            }
+          </button>
+        </div>
+
       </div>
     </Speak>
   );
