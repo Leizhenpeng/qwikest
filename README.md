@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='img_1.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+  <img src='img.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
 
 <p align='center'>
@@ -21,13 +21,15 @@ Mocking Up SSR Web App With <b>Qwik</b><sup><em>(speed)</em></sup><br>
 
 - 🗂 [File based routing](./src/routes)
 
-- 🎨 [Unocss](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [TailWindCSS](https://tailwindcss.com/) - the instant on-demand atomic CSS engine
 
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unplugin-icons),see more [here](https://icones.js.org/collection/all)
 
 - 🌍 [I18n ready](./public/i18n)
 
 - 🗒 Ready [Global Store Management](https://qwik.builder.io/docs/components/context/)
+
+- 🚛 [import SVG files as Qwik Components](https://www.npmjs.com/package/@svgx/vite-plugin-qwik)
 
 - 🦾 TypeScript, of course
 

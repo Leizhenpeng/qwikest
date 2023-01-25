@@ -51,7 +51,7 @@ export default component$(() => {
           </a>
         </li>
         <li>
-          <select className="select w-full max-w-xs" onChange$={ (e:any) => {
+          <select class="select w-full max-w-xs" onChange$={ (e:any) => {
             const lang = e.target.value ;
             const localeNow = ctx.config.supportedLocales.find((l) => l.lang == lang) as SpeakLocale;
             changeLocale(localeNow, ctx).then(
