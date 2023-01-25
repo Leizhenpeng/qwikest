@@ -1,7 +1,6 @@
 <p align='center'>
   <img src='img.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
-
 <p align='center'>
 Mocking Up SSR Web App With <b>Qwik</b><sup><em>(speed)</em></sup><br>
 </p>
