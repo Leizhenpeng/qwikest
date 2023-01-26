@@ -6,6 +6,7 @@ import {
 import type { ICommonContext } from "~/store";
 import { CommonContext, useCommon } from "~/store";
 import Logo from "~/assets/people.svg?component"
+import IcBaselineAccessibilityNew from '~icons/ic/baseline-accessibility-new'
 export default component$(() => {
   const commonStore = useContext(CommonContext) as ICommonContext;
   return (
@@ -13,11 +14,11 @@ export default component$(() => {
 
       <div class={`min-h-[30vh] bg-[#EFF5F5] `}>
         <h1 class={`flex justify-center gap-2 align-bottom pt-14` }>
-          <Logo height="40px" width="40px" color={`red`}/>
+          <Logo height="40px" width="40px" />
           <p class="text-2xl leading-[40px]">
           { t("common.welcome@@welcome to") } Qwik
           </p>
-          <Logo height="40px" width="40px" color={`red`}/>
+          <IcBaselineAccessibilityNew height="40px" width="40px" color={`#006ce9`}/>
         </h1>
 
 

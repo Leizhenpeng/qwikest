@@ -27,6 +27,7 @@
   "devDependencies": {
     "@builder.io/qwik": "0.16.2",
     "@builder.io/qwik-city": "0.0.128",
+    "@iconify-json/ic": "^1.1.12",
     "@svgx/vite-plugin-qwik": "^1.0.1",
     "@types/eslint": "8.4.10",
     "@types/node": "^18.11.18",
@@ -44,6 +45,7 @@
     "tailwindcss": "^3.1.8",
     "typescript": "4.9.4",
     "undici": "5.14.0",
+    "unplugin-icons-x": "^0.15.5",
     "vite": "4.0.3",
     "vite-tsconfig-paths": "3.5.0",
     "vitest": "^0.25.0"
